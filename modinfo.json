@@ -1,0 +1,14 @@
+{
+    "mod_id": "Procedrual_Parts",
+    "author": "Err0rz_404",
+    "name": "Procedrual parts",
+    "description": "A procedural parts mod for space warp",
+    "source": "https://github.com/cheese3660/Space-Warp-Example-Mod-Template",
+    "version": "0.0.1",
+    "dependencies": [
+    ],
+    "ksp2_version": {
+        "min": "0.0.0",
+        "max": "*"
+    }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>9</LangVersion>
+    <ImplicitUsings>true</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="..\external_dlls\SpaceWarp.dll" />
+    <Reference Include="..\external_dlls\UnityEngine.dll" />
+    <Reference Include="..\external_dlls\UnityEngine.CoreModule.dll" />
+    <Reference Include="..\external_dlls\Assembly-CSharp.dll" />
+    <Reference Include="..\external_dlls\Newtonsoft.Json.dll" />
+	<Reference Include="..\external_dlls\UnityEngine.IMGUIModule.dll"/>
+    <Reference Include="..\external_dlls\UnityEngine.UIElementsModule.dll"/>
+    <Reference Include="..\external_dlls\UnityEngine.UIModule.dll"/>
+	<Reference Include="..\external_dlls\UnityEngine.UI.dll"/>
+    <Reference Include="..\external_dlls\UnityEngine.ImageConversionModule.dll"/>
+    <Reference Include="..\external_dlls\0Harmony.dll"/>
+  </ItemGroup>
+</Project>
+
